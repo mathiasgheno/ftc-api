@@ -1,0 +1,30 @@
+GET http://localhost:3000/tasks
+accept: application/json
+
+###
+POST http://localhost:3000/tasks
+Content-Type: application/json
+
+{
+   "description": "Task 1 description"
+}
+
+###
+PUT http://localhost:3000/tasks/d7756ffb-ecfa-4295-a077-c64f5f3524da
+Content-Type: application/json
+
+{
+  "completed": true
+}
+
+###
+DELETE http://localhost:3000/tasks/666483fe-d12c-481f-917d-9b1903725d35
+
+
+###
+GET http://localhost:3000/tasks/dde96793-1964-4675-ac00-cd268a27e718
+accept: application/json
+
+###
+GET http://localhost:3000/tasks?user=mathiasgheno
+accept: application/json

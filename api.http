@@ -1,0 +1,15 @@
+POST https://68jb68bukl.execute-api.sa-east-1.amazonaws.com/tasks
+Content-Type: application/json
+
+{
+  "description": "Seus Extensões de Arquivo",
+  "user": "Daniel"
+}
+
+###
+
+GET https://68jb68bukl.execute-api.sa-east-1.amazonaws.com/tasks
+
+
+###
+DELETE https://68jb68bukl.execute-api.sa-east-1.amazonaws.com/tasks/1
